@@ -1,0 +1,6 @@
+c:\Projects\RollFrequencyTable\RollFrequencyTable\bin\Debug\RollFrequencyTable.exe.config
+c:\Projects\RollFrequencyTable\RollFrequencyTable\bin\Debug\RollFrequencyTable.exe
+c:\Projects\RollFrequencyTable\RollFrequencyTable\bin\Debug\RollFrequencyTable.pdb
+c:\Projects\RollFrequencyTable\RollFrequencyTable\obj\Debug\RollFrequencyTable.exe
+c:\Projects\RollFrequencyTable\RollFrequencyTable\obj\Debug\RollFrequencyTable.pdb
+c:\Projects\RollFrequencyTable\RollFrequencyTable\obj\Debug\RollFrequencyTable.csprojResolveAssemblyReference.cache

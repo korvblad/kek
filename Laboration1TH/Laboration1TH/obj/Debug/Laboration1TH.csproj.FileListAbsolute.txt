@@ -1,0 +1,6 @@
+c:\Projects\Laboration1TH\Laboration1TH\bin\Debug\Laboration1TH.exe.config
+c:\Projects\Laboration1TH\Laboration1TH\bin\Debug\Laboration1TH.exe
+c:\Projects\Laboration1TH\Laboration1TH\bin\Debug\Laboration1TH.pdb
+c:\Projects\Laboration1TH\Laboration1TH\obj\Debug\Laboration1TH.csprojResolveAssemblyReference.cache
+c:\Projects\Laboration1TH\Laboration1TH\obj\Debug\Laboration1TH.exe
+c:\Projects\Laboration1TH\Laboration1TH\obj\Debug\Laboration1TH.pdb

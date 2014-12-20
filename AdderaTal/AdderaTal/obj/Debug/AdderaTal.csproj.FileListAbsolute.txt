@@ -1,0 +1,6 @@
+c:\Projects\AdderaTal\AdderaTal\bin\Debug\AdderaTal.exe.config
+c:\Projects\AdderaTal\AdderaTal\bin\Debug\AdderaTal.exe
+c:\Projects\AdderaTal\AdderaTal\bin\Debug\AdderaTal.pdb
+c:\Projects\AdderaTal\AdderaTal\obj\Debug\AdderaTal.csprojResolveAssemblyReference.cache
+c:\Projects\AdderaTal\AdderaTal\obj\Debug\AdderaTal.exe
+c:\Projects\AdderaTal\AdderaTal\obj\Debug\AdderaTal.pdb

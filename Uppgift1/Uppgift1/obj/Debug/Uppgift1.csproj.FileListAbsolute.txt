@@ -1,0 +1,5 @@
+c:\Projects\Uppgift1\Uppgift1\bin\Debug\Uppgift1.exe.config
+c:\Projects\Uppgift1\Uppgift1\bin\Debug\Uppgift1.exe
+c:\Projects\Uppgift1\Uppgift1\bin\Debug\Uppgift1.pdb
+c:\Projects\Uppgift1\Uppgift1\obj\Debug\Uppgift1.exe
+c:\Projects\Uppgift1\Uppgift1\obj\Debug\Uppgift1.pdb
