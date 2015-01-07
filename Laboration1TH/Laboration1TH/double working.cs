@@ -13,7 +13,7 @@ namespace Laboration1TH
 
         static void Main(string[] args)
         {
-
+           
             double totalKostnad = 0;
             int erhalletBelopp = 0;
             double attBetala = 0;
