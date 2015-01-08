@@ -13,26 +13,26 @@ namespace Laboration1TH
 
         static void Main(string[] args)
         {
-           
+
+            double oresavrundning = 0;
             double totalKostnad = 0;
             int erhalletBelopp = 0;
-            double attBetala = 0;
-            double oresavrundning = 0;
-            double tillbaka = 0;
+            int attBetala = 0;
+            int tillbaka = 0;
             string inmatatTal;
             string angeTotalsumma = "Ange totalsumma";
             string angeErhalletBelopp = "Ange erhållet belopp";
 
-            
+
             // Ger felmeddelande ifall något annat än double skrivs in
             while (true)
             {
                 try
                 {
-                    Console.Write("{0,-20}: ",angeTotalsumma);
+                    Console.Write("{0,-20}: ", angeTotalsumma);
                     inmatatTal = Console.ReadLine();
                     totalKostnad = double.Parse(inmatatTal);
-                   //Ger felmeddelande och avslutar programmet ifall totalsumman är < 0,50
+                    //Ger felmeddelande och avslutar programmet ifall totalsumman är < 0,50
                     if (totalKostnad <= 0.5)
                     {
                         Console.BackgroundColor = ConsoleColor.Red;
@@ -40,7 +40,7 @@ namespace Laboration1TH
                         Console.WriteLine("Totalsumman är för liten. Köpet kunde itne genomföras!");
                         Console.ResetColor();
 
-                        Environment.Exit(0);
+                        return;
                     }
                     break;
                 }
@@ -58,9 +58,9 @@ namespace Laboration1TH
             {
                 try
                 {
-                    Console.Write("{0}: ",angeErhalletBelopp);
+                    Console.Write("{0}: ", angeErhalletBelopp);
                     inmatatTal = Console.ReadLine();
-                    erhalletBelopp = int.Parse(inmatatTal);                    
+                    erhalletBelopp = int.Parse(inmatatTal);
                     break;
                 }
                 catch (Exception)
@@ -83,7 +83,7 @@ namespace Laboration1TH
             else
             {
                 //Öresavrunding 
-                attBetala = (uint)Math.Round(totalKostnad);
+                attBetala = (int)Math.Round(totalKostnad);
                 oresavrundning = attBetala - totalKostnad;
 
                 tillbaka = erhalletBelopp - attBetala;
@@ -111,12 +111,12 @@ namespace Laboration1TH
 
 
 
-                double vaxel = 0;
-                double femhundralapp = 0;
-                double etthundralapp = 0;
-                double tjugolapp = 0;
-                double femkrona = 0;
-                double enkrona = 0;
+                int vaxel = 0;
+                int femhundralapp = 0;
+                int etthundralapp = 0;
+                int tjugolapp = 0;
+                int femkrona = 0;
+                int enkrona = 0;
 
                 string femhundravaxel = "500-lappar";
                 string etthundravaxel = "100-lappar";
@@ -136,17 +136,17 @@ namespace Laboration1TH
                 enkrona = vaxel / en;
 
                 //Skriver ut antalet sedlar/mynt som kund skall få tillbaka samt rundar ner.
-                Console.WriteLine(" {0,-16}: {1:f0}\n {2,-16}: {3:f0}\n {4,-16}: {5:f0}\n {6,-16}: {7:f0}\n {8,-16}: {9:f0}",
+                Console.WriteLine(" {0,-16}: {1}\n {2,-16}: {3}\n {4,-16}: {5}\n {6,-16}: {7}\n {8,-16}: {9}",
                     femhundravaxel,
-                    Math.Floor(femhundralapp),
+                    femhundralapp,
                     etthundravaxel,
-                    Math.Floor(etthundralapp),
+                    etthundralapp,
                     tjugovaxel,
-                    Math.Floor(tjugolapp),
+                    tjugolapp,
                     femkronavaxel,
-                    Math.Floor(femkrona),
+                    femkrona,
                     enkronavaxel,
-                    Math.Floor(enkrona));
+                    enkrona);
             }
         }
     }
