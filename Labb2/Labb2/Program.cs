@@ -8,10 +8,10 @@ namespace Labb2
         static void Main(string[] args)
         {
 
+
             for (int rad = 0; rad < 25; rad++)
             {
                 int farg = rad % 3;
-               
                 switch (farg)
                 {
                     case 0:
@@ -24,22 +24,22 @@ namespace Labb2
                         Console.ForegroundColor = ConsoleColor.Green;
                         break;
                 }
-
                 if (rad % 2 == 1)
                 {
                     Console.Write(" ");
                 }
-            
+
                 for (int kolumn = 2; kolumn < 39; kolumn++)
                 {
-                    Console.Write("* ");           
-                    
-                        if (kolumn == 38)
-                        {
-                            Console.WriteLine();
-                            Console.ResetColor();
-                        }                                      
-                } 
+                    Console.Write("* ");
+
+
+                    if (kolumn == 38)
+                    {
+                        Console.WriteLine();
+                    }                  
+                }
+ 
             }
         }
     }
